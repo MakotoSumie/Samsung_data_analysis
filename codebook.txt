@@ -1,0 +1,108 @@
+---
+title: "codebook"
+author: "MS"
+date: "2024-12-20"
+output: pdf_document
+---
+
+Codebook for Dataset
+1. subject
+Description: A unique identifier for each subject in the dataset.
+Type: Integer
+Values: Numeric values corresponding to each subject (e.g., 1, 2, 3, ...).
+2. activity_id
+Description: The activity the subject was performing during data collection.
+Type: Factor (categorical)
+Values:
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
+3. TimeBodyAccelerometermeanX
+Description: Mean value of the X-axis acceleration measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+4. TimeBodyAccelerometermeanY
+Description: Mean value of the Y-axis acceleration measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+5. TimeBodyAccelerometermeanZ
+Description: Mean value of the Z-axis acceleration measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+6. TimeBodyAccelerometerstdX
+Description: Standard deviation of the X-axis acceleration measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+7. TimeBodyAccelerometerstdY
+Description: Standard deviation of the Y-axis acceleration measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+8. TimeBodyAccelerometerstdZ
+Description: Standard deviation of the Z-axis acceleration measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+9. TimeGravityAccelerometermeanX
+Description: Mean value of the X-axis acceleration measured by the gravity accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+10. TimeGravityAccelerometermeanY
+Description: Mean value of the Y-axis acceleration measured by the gravity accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+11. TimeGravityAccelerometermeanZ
+Description: Mean value of the Z-axis acceleration measured by the gravity accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+12. TimeGravityAccelerometerstdX
+Description: Standard deviation of the X-axis acceleration measured by the gravity accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+13. TimeGravityAccelerometerstdY
+Description: Standard deviation of the Y-axis acceleration measured by the gravity accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+14. TimeGravityAccelerometerstdZ
+Description: Standard deviation of the Z-axis acceleration measured by the gravity accelerometer.
+Type: Numeric
+Unit: Acceleration (m/s²)
+15. TimeBodyAccelerometerJerkmeanX
+Description: Mean value of the X-axis jerk (change in acceleration) measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration change (m/s³)
+16. TimeBodyAccelerometerJerkmeanY
+Description: Mean value of the Y-axis jerk (change in acceleration) measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration change (m/s³)
+17. TimeBodyAccelerometerJerkmeanZ
+Description: Mean value of the Z-axis jerk (change in acceleration) measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration change (m/s³)
+18. TimeBodyAccelerometerJerkstdX
+Description: Standard deviation of the X-axis jerk measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration change (m/s³)
+19. TimeBodyAccelerometerJerkstdY
+Description: Standard deviation of the Y-axis jerk measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration change (m/s³)
+20. TimeBodyAccelerometerJerkstdZ
+Description: Standard deviation of the Z-axis jerk measured by the body accelerometer.
+Type: Numeric
+Unit: Acceleration change (m/s³)
+21. TimeBodyGyroscopemeanX
+Description: Mean value of the X-axis angular velocity measured by the body gyroscope.
+Type: Numeric
+Unit: Angular velocity (rad/s)
+22. TimeBodyGyroscopemeanY
+Description: Mean value of the Y-axis angular velocity measured by the body gyroscope.
+Type: Numeric
+Unit: Angular velocity (rad/s)
+23. TimeBodyGyroscopemeanZ
+Description: Mean value of the Z-axis angular velocity measured by the body gyroscope.
+Type: Numeric
+Unit: Angular velocity (rad/s)
+
+
